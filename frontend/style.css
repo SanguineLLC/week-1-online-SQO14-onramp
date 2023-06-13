@@ -1,0 +1,148 @@
+* {
+  border: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+  line-height: 1.8rem;
+}
+
+section {
+  background-color: rgb(157, 248, 248);
+  margin-top: 20px;
+  height: 500px;
+}
+
+section h1 {
+  padding: 50px 50px;
+  font-size: 35px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.tweet {
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 320px;
+  height: fit-content;
+  
+}
+
+img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.container-2 {
+  text-align: left;
+  background-color: rgb(251, 243, 230);
+  margin: 10px auto;
+  border-radius: 20px;
+  border: 2px solid rgb(252, 218, 132);
+  padding: 40px;
+  width: 400px;
+  height: 350px;
+}
+
+.header2 {
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+  line-height: 2.6rem;
+}
+
+.blue {
+  text-align: center;
+  background-color: rgb(1, 176, 251);
+  margin: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid rgb(1, 176, 251);
+  padding: 10px;
+  width: 375px;
+  height: 35px;
+}
+
+.box {
+  padding: 8px;
+  text-align-last: left;
+  margin-top: 5px;
+}
+
+.twitter-logo {
+  display: flex;
+  position: relative;
+  top: 10px;
+  right: -200px;
+  bottom: 90px;
+  width: 50px;
+  height: 55px;
+}
+
+.price {
+  font-size: 200%;
+}
+
+.time {
+  display: inline-flex;
+  font-size: 70%;
+}
+.i {
+  height: 200px;
+  width: 100px;
+}
+
+.un {
+  color: grey;
+  size: 20px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+.text {
+  justify-content: right;
+  color: gray;
+  width: fit-content;
+}
+
+.image-name {
+  display: flex;
+}
+
+.date1 {
+  color: grey;
+}
+
+.list-check {
+  padding: 0%;
+  margin: 0%;
+  list-style-type: none;
+}
+
+.check {
+  list-style-image: url(img/image_processing20200510-5493-198w3q0.png);
+  height: 60px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.bird {
+  width: 255px;
+  height: 35px;
+}
+
+.h1{
+ margin-left: 17%;
+}
+.heart{
+  color: red;
+}

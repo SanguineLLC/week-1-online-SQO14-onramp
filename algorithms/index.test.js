@@ -1,6 +1,6 @@
 const countTruthy = require('./challenge-1')
 const fizzBuzz = require('./challenge-2')
-const sumMix = require('./challenge-3')
+const sumMix = require('./challenge-3').default
 const calculateGrade = require('./challenge-4')
 const filterList = require('./challenge-5')
 
